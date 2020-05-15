@@ -7,6 +7,10 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: frontend
+    volumes:
+        - .:/app
+        # One-way volume to use node_modules from inside image
+        - /app/node_modules  
     stdin_open: true
     ports:
       - ${PORT}:${PORT}
