@@ -1,0 +1,16 @@
+.my-picture {
+    width: 400px;
+    height: 100%;
+    border-radius: 100%;
+  }
+  
+@media(max-width: 1024px) {
+.reverse-columns {
+    flex-direction: column-reverse;
+    display: flex;
+}
+}
+
+.center-horizontally {
+    margin: auto;
+}
