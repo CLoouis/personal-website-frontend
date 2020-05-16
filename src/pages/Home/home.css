@@ -1,10 +1,20 @@
+@media(max-width: 768px){
+    .my-picture {
+        width: 256px;
+        height: 100%;
+        border-radius: 100%;
+    }
+}
+
+@media(min-width: 768px){
 .my-picture {
     width: 400px;
     height: 100%;
     border-radius: 100%;
-  }
+}
+}
   
-@media(max-width: 1024px) {
+@media(max-width: 768px) {
 .reverse-columns {
     flex-direction: column-reverse;
     display: flex;
