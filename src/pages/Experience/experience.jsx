@@ -1,19 +1,26 @@
 import React from 'react';
+
 import '../../res/bulma.css';
 import './experience.css'
+
 import Card from '../../Components/Card/Card';
 
 class Experience extends React.Component {
     render() {
         return(
             <section className="hero is-fullheight has-background-white-ter">
-                <div className="hero-head has-text-centered">
+                {/* <div className="hero-head has-text-centered">
                     <h1 className="title has-text-black">
                         Experience
                     </h1>
-                </div>
+                </div> */}
                 <div className="hero-body">
-                    <div className="container">
+                    <div className="container up-page">
+                        <div className="page-title">
+                            <h1 className="title has-text-black">
+                                Experience
+                            </h1>
+                        </div>
                         <div className="columns is-centered">
                             <div class="tile is-ancestor is-9">
                                 <div class="tile is-vertical is-8">
@@ -29,9 +36,9 @@ class Experience extends React.Component {
                                                     />
                                         </div>
                                     <div class="tile is-parent is-half">
-                                        <Card title="Software Developer Intern @ GDP Labs" 
+                                        <Card title="Software Developer Intern at GDP Labs" 
                                                 year="2020"
-                                                description=""
+                                                description="Soon"
                                                 />
                                         
                                     </div>
@@ -39,7 +46,7 @@ class Experience extends React.Component {
                                     <div class="tile is-parent">
                                         <Card title="Computational Science and Engineering Laboratory Assistant" 
                                                 year="2019 - Now"
-                                                description="Being assistant in Geomertry & Linear Algebra and Algorithm Strategies courses"
+                                                description="Teaching assistant in Geomertry & Linear Algebra and Algorithm Strategies courses"
                                                 />
                                     </div>
                                 </div>
@@ -51,7 +58,6 @@ class Experience extends React.Component {
                                             with Gojek Software Development Team"
                                             image="upscale.jpg"
                                             />
-                                    
                                 </div>
                             </div>
                         </div>

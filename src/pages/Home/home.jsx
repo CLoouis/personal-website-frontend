@@ -1,4 +1,7 @@
 import React from 'react';
+import Fade from 'react-reveal'
+import Zoom from 'react-reveal/Zoom';
+
 import '../../res/bulma.css';
 import './home.css';    
 
@@ -10,6 +13,7 @@ class Home extends React.Component {
                     <div className="container">
                         <div className="columns is-vcentered reverse-columns is-centered">
                             <div className="column has-text-centered">
+                                <Zoom>
                                 <p className="title is-size-3 is-size-4-mobile has-text-black">
                                     I am Louis Cahyadi
                                 </p>
@@ -21,9 +25,12 @@ class Home extends React.Component {
                                     <div className="column is-narrow is-size-6 is-size-7-mobile">Experience</div>
                                     <div className="column is-narrow is-size-6 is-size-7-mobile">Projects</div>
                                 </div>
+                                </Zoom>
                             </div>
                             <div className="column">
-                                <img className="my-picture center-horizontally" src={require('../../res/13517126-square.JPG')} alt="myself"/>
+                                <Fade top>
+                                    <img className="my-picture center-horizontally" src={require('../../res/13517126-square.JPG')} alt="myself"/>
+                                </Fade>
                             </div>
                         </div>
                     </div>

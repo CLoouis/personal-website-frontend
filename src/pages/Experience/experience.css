@@ -2,3 +2,13 @@
 .center-horizontally {
     margin: auto;
 }
+
+.page-title {
+    margin-bottom: 3em;
+    text-align: center;
+    margin-top: 0;
+}
+
+.up-page {
+    padding-bottom: 5em;
+}
