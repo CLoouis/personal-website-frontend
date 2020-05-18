@@ -1,15 +1,11 @@
 import React from 'react';
-import Fade from 'react-reveal/Fade';
-
 
 import '../../res/bulma.css';
 import './Card.css';
 
 const Card = (props) => {
     return (
-        <article class="tile is-child box">
-            <Fade left>
-                <div>
+        <div>
             <p className="title is-size-5">{props.title}</p>
             <p className="subtitle is-size-7">{props.year}</p>
             {
@@ -19,9 +15,11 @@ const Card = (props) => {
                 </figure>
             }
             <p className="is-size-6">{props.description}</p>
-                </div>
-            </Fade>
-        </article>
+            {
+                props.mediumLink && 
+                <p><br></br>Check out my story on <a href={props.mediumLink} target="_blank" rel="noopener noreferrer">medium</a></p>
+            }
+        </div>
     )
 }
 

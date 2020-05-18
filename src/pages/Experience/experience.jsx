@@ -3,7 +3,7 @@ import React from 'react';
 import '../../res/bulma.css';
 import './experience.css'
 
-import Card from '../../Components/Card/Card';
+import AnimatedCard from '../../Components/Card/AnimatedCard';
 
 class Experience extends React.Component {
     render() {
@@ -26,37 +26,43 @@ class Experience extends React.Component {
                                 <div class="tile is-vertical is-8">
                                     <div class="tile">
                                         <div class="tile is-parent is-vertical">
-                                            <Card title="Content Writter" 
+                                            <AnimatedCard title="Content Writter" 
                                                     year="2017 - 2018"
                                                     description="Write course material on Geometry and Combinatorics for KTOM Books"
+                                                    animation="left"
                                                     />
-                                            <Card title="Chairman of Invasion Camp" 
+                                            <AnimatedCard title="Chairman of Invasion Camp" 
                                                     year="2018"
                                                     description="Invasion Camp is Christian spiritual camp held by Sion Ministry."
+                                                    animation="left"
                                                     />
                                         </div>
                                     <div class="tile is-parent is-half">
-                                        <Card title="Software Developer Intern at GDP Labs" 
+                                        <AnimatedCard title="Software Developer Intern at GDP Labs" 
                                                 year="2020"
                                                 description="Soon"
+                                                animation="top"
                                                 />
                                         
                                     </div>
                                     </div>
                                     <div class="tile is-parent">
-                                        <Card title="Computational Science and Engineering Laboratory Assistant" 
+                                        <AnimatedCard title="Computational Science and Engineering Laboratory Assistant" 
                                                 year="2019 - Now"
                                                 description="Teaching assistant in Geomertry & Linear Algebra and Algorithm Strategies courses"
+                                                animation="bottom"
                                                 />
                                     </div>
                                 </div>
                                 <div class="tile is-parent is-5">
-                                    <Card title="Gojek UpScale 3.0" 
+                                    <AnimatedCard title="Gojek UpScale 3.0" 
                                             year="2020"
                                             description="One of 20 selected undergraduate students to
                                             participate in exclusive 2-days hands-on experience
                                             with Gojek Software Development Team"
                                             image="upscale.jpg"
+                                            animation="right"
+                                            mediumLink="https://medium.com/@louiscahyadi23/gojek-upscale-3-0-38d660b5509a"
                                             />
                                 </div>
                             </div>
