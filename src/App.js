@@ -1,18 +1,19 @@
 import React from 'react';
 import './res/bulma.css';
+// import ReactPageScroller from 'react-page-scroller';
 
 import Home from './pages/Home/home';
 import Experience from './pages/Experience/experience';
-import Achievement from './pages/Achievement/achievement';
-import Project from './pages/Project/project';
+import AboutMe from './pages/AboutMe/AboutMe';
 
 function App() {
   return (
     <div className="App">
-      <Home />
-      <Experience />
-      <Achievement />
-      <Project />
+      {/* <ReactPageScroller animationTimer={800}> */}
+        <Home />
+        <AboutMe />
+      {/* </ReactPageScroller> */}
+        <Experience />
     </div>
   );
 }

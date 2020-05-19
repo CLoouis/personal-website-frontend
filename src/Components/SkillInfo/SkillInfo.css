@@ -1,0 +1,24 @@
+.skill-info {
+    margin-bottom: 0.5em;
+}
+
+.skill-bar {
+    width: 75%; /* Full width */
+    height: 1.5em;
+    background-color: #ddd; /* Grey background */
+    margin: auto;
+    margin-bottom: 0.5em;
+}
+
+.skill-name {
+    width: 25%;
+    height: 1.5em;
+    text-align: center;
+    background-color: #ddd;
+    padding-bottom: 0.4em;
+}
+
+.skills {
+    text-align: right;
+    color: white;
+}
