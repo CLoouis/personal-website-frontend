@@ -6,7 +6,7 @@ import Card from './Card';
 
 const AnimatedCard = (props) => {
     return (
-        <article class="tile is-child box">
+        <article className="tile is-child box">
             {
                 props.animation === 'left' && 
                 <Fade left>

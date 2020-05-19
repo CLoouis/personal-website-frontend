@@ -21,9 +21,9 @@ class Home extends React.Component {
                                     Computer Science Student<br></br>@ Institut Teknologi Bandung
                                 </p>
                                 <div className="columns has-text-centered is-centered is-mobile">
-                                    <div className="column is-narrow is-size-6 is-size-7-mobile">Achievements</div>
+                                    {/* <div className="column is-narrow is-size-6 is-size-7-mobile">Achievements</div>
                                     <div className="column is-narrow is-size-6 is-size-7-mobile">Experience</div>
-                                    <div className="column is-narrow is-size-6 is-size-7-mobile">Projects</div>
+                                    <div className="column is-narrow is-size-6 is-size-7-mobile">Projects</div> */}
                                 </div>
                                 </Zoom>
                             </div>

@@ -10,7 +10,7 @@ const Card = (props) => {
             <p className="subtitle is-size-7">{props.year}</p>
             {
                 props.image &&
-                <figure class="image is-3by2">
+                <figure className="image is-3by2">
                     <img src={require(`../../res/${props.image}`)} alt="Gojek Upscale" className="image-in-card"/>
                 </figure>
             }

@@ -22,10 +22,10 @@ class Experience extends React.Component {
                             </h1>
                         </div>
                         <div className="columns is-centered">
-                            <div class="tile is-ancestor is-9">
-                                <div class="tile is-vertical is-8">
-                                    <div class="tile">
-                                        <div class="tile is-parent is-vertical">
+                            <div className="tile is-ancestor is-9">
+                                <div className="tile is-vertical is-8">
+                                    <div className="tile">
+                                        <div className="tile is-parent is-vertical">
                                             <AnimatedCard title="Content Writter" 
                                                     year="2017 - 2018"
                                                     description="Write course material on Geometry and Combinatorics for KTOM Books"
@@ -37,7 +37,7 @@ class Experience extends React.Component {
                                                     animation="left"
                                                     />
                                         </div>
-                                    <div class="tile is-parent is-half">
+                                    <div className="tile is-parent is-half">
                                         <AnimatedCard title="Software Developer Intern at GDP Labs" 
                                                 year="2020"
                                                 description="Soon"
@@ -46,7 +46,7 @@ class Experience extends React.Component {
                                         
                                     </div>
                                     </div>
-                                    <div class="tile is-parent">
+                                    <div className="tile is-parent">
                                         <AnimatedCard title="Computational Science and Engineering Laboratory Assistant" 
                                                 year="2019 - Now"
                                                 description="Teaching assistant in Geomertry & Linear Algebra and Algorithm Strategies courses"
@@ -54,7 +54,7 @@ class Experience extends React.Component {
                                                 />
                                     </div>
                                 </div>
-                                <div class="tile is-parent is-5">
+                                <div className="tile is-parent is-5">
                                     <AnimatedCard title="Gojek UpScale 3.0" 
                                             year="2020"
                                             description="One of 20 selected undergraduate students to
