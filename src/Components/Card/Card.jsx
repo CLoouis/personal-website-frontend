@@ -1,6 +1,5 @@
 import React from 'react';
 
-import '../../res/bulma.css';
 import './Card.css';
 
 const Card = (props) => {

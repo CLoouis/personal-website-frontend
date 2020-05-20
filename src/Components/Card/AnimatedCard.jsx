@@ -1,7 +1,6 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 
-import '../../res/bulma.css';
 import Card from './Card';
 
 const AnimatedCard = (props) => {

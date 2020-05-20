@@ -1,7 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react';
 import {useSpring, animated} from 'react-spring';
 
-import '../../res/bulma.css';
 import './SkillInfo.css';
 
 const SkillInfo = (props) => {
@@ -9,11 +8,9 @@ const SkillInfo = (props) => {
     const [parentWidth, setParentWidth] = useState(0);
     
     useEffect ( () => {
-        
         if(parentRef.current){
             setParentWidth(parentRef.current.offsetWidth);
         }
-        
     }, [parentRef]);
     
     const width = `${props.percentage}` * parentWidth;

@@ -1,7 +1,6 @@
 import React from 'react';
 
 import SkillInfo from '../../Components/SkillInfo/SkillInfo';
-import '../../res/bulma.css';
 
 class SkillSet extends React.Component {
     constructor(props) {
@@ -9,13 +8,13 @@ class SkillSet extends React.Component {
         this.state = {
             skills: {
                 'HTML': 0.9,
-                'CSS' : 0.9,
-                'JavaScript': 0.8,
+                'CSS' : 0.85,
+                'JS': 0.8,
                 'React': 0.8,
                 'Node.js': 0.8,
                 'SQL': 0.9,
-                'Java': 0.75,
-                'Go': 0.75
+                'Java': 0.7,
+                'Go': 0.7
             }
         }
     }

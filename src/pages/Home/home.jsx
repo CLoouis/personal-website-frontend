@@ -2,7 +2,6 @@ import React from 'react';
 import Fade from 'react-reveal'
 import Zoom from 'react-reveal/Zoom';
 
-import '../../res/bulma.css';
 import './home.css';    
 
 class Home extends React.Component {
@@ -20,11 +19,6 @@ class Home extends React.Component {
                                 <p className="subtitle is-size-5 is-size-6-mobile">
                                     Computer Science Student<br></br>@ Institut Teknologi Bandung
                                 </p>
-                                <div className="columns has-text-centered is-centered is-mobile">
-                                    {/* <div className="column is-narrow is-size-6 is-size-7-mobile">Achievements</div>
-                                    <div className="column is-narrow is-size-6 is-size-7-mobile">Experience</div>
-                                    <div className="column is-narrow is-size-6 is-size-7-mobile">Projects</div> */}
-                                </div>
                                 </Zoom>
                             </div>
                             <div className="column">

@@ -1,6 +1,5 @@
 import React from 'react';
 
-import '../../res/bulma.css';
 import './experience.css'
 
 import AnimatedCard from '../../Components/Card/AnimatedCard';
@@ -9,11 +8,6 @@ class Experience extends React.Component {
     render() {
         return(
             <section className="hero is-fullheight has-background-white-ter">
-                {/* <div className="hero-head has-text-centered">
-                    <h1 className="title has-text-black">
-                        Experience
-                    </h1>
-                </div> */}
                 <div className="hero-body">
                     <div className="container up-page">
                         <div className="page-title">
