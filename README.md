@@ -1,9 +1,16 @@
 # personal-website-frontend
 
-This is personal website project, this website will contains my personal information and also my blog
+This is personal website project, this website will contains my personal information and also my blog. Currently deployed at [louiscahyadi.me](www.louiscahyadi.me)
 
 ## Built With
 * React
+* Bulma
 * Yarn
 * Docker
-* Docker-Compose
+* Nginx
+
+## Future Development
+
+* Scrolling animation
+* Triggering react-spring when the component enter browser viewport
+* Project page 
