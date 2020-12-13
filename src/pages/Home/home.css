@@ -1,26 +1,65 @@
-@media(max-width: 768px){
-    .my-picture {
-        width: 256px;
-        height: 100%;
-        border-radius: 100%;
-    }
-}
-
-@media(min-width: 768px){
 .my-picture {
-    width: 400px;
-    height: 100%;
     border-radius: 100%;
-}
-}
-  
-@media(max-width: 768px) {
-.reverse-columns {
-    flex-direction: column-reverse;
-    display: flex;
-}
 }
 
 .center-horizontally {
     margin: auto;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+.roboto-mono-light {
+    font-family: "Roboto Thin";
+}
+
+.italic {
+    font-style: italic;
+}
+
+.name {
+    font-size: 72px;
+}
+
+.title {
+    width: fit-content;
+    font-size: 24px;
+}
+
+.social-media {
+    margin-top: 1em;
+}
+
+.my-icon {
+    margin: 1em;
+}
+
+/*The following typewriter effect copied from https://css-tricks.com/snippets/css/typewriter-effect/ */
+.typewriter {
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: 
+        typing 3s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+  
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+  
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
 }
